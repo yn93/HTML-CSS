@@ -1,0 +1,40 @@
+$border:1px solid #999;
+$background:#eee;
+$padding:20px;
+$border-box:border-box;
+body{
+	width:100%;
+	height:100%;
+	padding:20px;
+	box-sizing:$border-box;
+}
+.wrapper{
+	display:table;
+	width:100%;
+	padding:$padding;
+	border:$border;
+	background:$background;
+	box-sizing:border-box;
+}
+.box{
+	display:table-cell;
+}
+.leftSidder{
+	width:200px;
+	border:$border;
+	padding:$padding;
+	box-sizing:$border-box;
+}
+.rightSidder{
+	border:$border;
+	width:100px;
+	height:200px;
+	padding:$padding;
+	box-sizing:$border-box;
+}
+.mainSidder{
+	// height:300px;
+	border:$border;
+	padding:$padding;
+	box-sizing:$border-box;
+}

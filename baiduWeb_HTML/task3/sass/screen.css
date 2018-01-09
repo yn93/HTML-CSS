@@ -1,0 +1,72 @@
+/**
+*CONTENTS
+*
+*SETTINGS
+*variables...................
+*TOOLS
+*
+*COMPONENTS
+*reset.......................compass
+*
+*BASE 
+*screen.scss................
+*/
+
+.constainer {
+  position: relative;
+  background: #eee;
+  padding: 20px; }
+
+.left {
+  position: absolute;
+  width: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  top: 20px;
+  left: 20px;
+  border: 1px solid #999; }
+  .left .logo {
+    float: left; }
+    .left .logo img {
+      width: 80px;
+      height: 80px; }
+  .left h2 {
+    font-size: 14px;
+    font-weight: normal; }
+
+.right {
+  position: absolute;
+  width: 120px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  top: 20px;
+  right: 20px;
+  border: 1px solid #999; }
+  .right li {
+    list-style: none;
+    margin-bottom: 20px; }
+  .right img {
+    width: 80px;
+    height: 80px; }
+
+.main {
+  position: relative;
+  margin: 0 140px 0 220px;
+  border: 1px solid #999;
+  padding: 20px;
+  background: #fff; }
+  .main img {
+    width: 100%;
+    max-width: 500px;
+    padding-top: 20px; }
+  .main p {
+    line-height: 20px;
+    text-indent: 2em; }
+  .main h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px; }
+
+/*# sourceMappingURL=screen.css.map */

@@ -1,0 +1,94 @@
+
+/*
+利用margin负值和浮动以及定位
+*/
+.constainer{
+	background: #eee;
+	padding: 20px 160px 20px 240px;
+	margin: 20px;
+	border: 1px solid #999999;
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.main{
+	float: left;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 1px solid #999;
+	background: #fff;
+}
+
+.mainContent p{
+	
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 20px;
+	
+}
+
+.mainContent h3{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 25px;
+	padding:10px 0;
+}
+.mainContent img{
+	width:100%;
+	max-width:  400px;
+	padding:10px;
+}
+
+.left{
+	width: 200px;
+	float: left;
+	margin-left: -100%;/*按规范所述，浮动元素尽可能向上浮动。
+	100%就是container的宽度，比left宽，因此left相当于不占空间*/
+	box-sizing: border-box;
+	position: relative;/*相对定位，确定left的位置*/
+	left: -220px;
+	padding: 20px;
+	border: 1px solid #999;
+	background: #fff;
+}
+.left .logo{
+	float: left;
+}
+.left .logo img{
+	width: 80px;
+	height: 80px;
+}
+
+.left span{
+	vertical-align: top;
+}
+
+.right{
+	width: 120px;
+	float: left;
+	position: relative;
+	margin-left: -120px;/*right在右边是应为margin-left:-120px;比margin-left:-100%;小*/
+	box-sizing: border-box;
+	right: -140px;
+	border: 1px solid #999;
+	background: #fff;
+}
+
+.right ul{
+	text-align: center;
+	overflow: hidden;
+}
+
+.right ul li{
+	display: inline-block;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.right ul li img{
+	width: 80px;
+	height: 80px;
+	
+}
+

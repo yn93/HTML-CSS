@@ -1,0 +1,157 @@
+*{
+	margin:0;
+    padding: 0;
+    
+}
+
+.header{
+	position: relative;
+	/*width:100%;*/
+	height: 50px;
+	background: #363636;
+	padding: 5px 20px;
+
+	overflow: hidden;
+}
+ .title{
+	position: absolute;
+	margin-right: 20px;
+	padding-left:20px;
+	color:white;
+	top:50%;
+	transform:translateY(-50%);
+}
+.a-hreaf {
+/*	position: absolute;*/
+	right: 20px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.a-href ul{
+	float: right;
+}
+.a-href ul li{
+	float: left;/*设置浮动而不是inline，否则没有前面的圆点*/
+	margin: 12px 15px;
+}
+.a-href ul li a{
+	color: #fff;
+	font-size:14px;
+	padding:10px;
+	text-decoration: none;
+}
+.main{
+	background: #ccc;
+	
+	/*position: relative;*/
+
+}
+.mainContent{
+	float: left;
+	/*position: absolute;*/
+	width: 75%;
+	box-sizing: border-box;
+
+}
+
+.box{
+	/*position: relative;*/
+	box-sizing: border-box;
+	padding:20px;
+	margin:20px ;
+	/*margin-right: 380px;*/
+	border: 1px solid #ccc;
+	box-shadow: 2px 3px 4px rgb(171,171,171);
+	background: #fff;
+}
+.box img{
+	max-width: 100%;
+}
+.box ul{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-left:60px;
+}
+.box ul li{
+	margin: 0;
+	padding: 0;
+}
+.picture ul li{
+	float: left;
+	width: 100px;
+	height: 110px;
+	margin:10px;
+	list-style: none;
+	text-align: center;
+	border:1px solid #ccc;
+
+}
+
+ .picture ul li img{
+	width: 80px;
+	height: 80px;
+	/*float: left;*/
+}
+.table{
+	width: 100%;
+	border-collapse:collapse;
+	text-align: left;
+}
+.table tr{
+	border:1px solid #ccc;
+}
+.table tr th{
+	background: black;
+	color:white;
+	font-weight: bold;
+}
+.table td .work1{
+	background: lightgrey;
+	font-weight: bold;
+}
+.right{
+	float: right;
+	width:360px;
+	box-sizing: border-box;
+	padding: 20px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 3px 4px rgb(171,171,171);
+	margin:20px;
+	/*top:0px;
+	right: 0;*/
+}
+.sideMain{
+	border-collapse: separate;
+	border-spacing: 0 10px;
+}
+.sideMain .first{
+	text-align: right;
+}
+.sideMain a{
+	color:rgb(171,171,171);
+}
+.submit{
+	height: 30px;
+	border-radius: 10px;
+}
+.submitText{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	color:white;
+	font-size: 16px;
+	background: blue;
+	
+}
+.footer{
+	/*position: absolute;*/
+	clear:both;
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+	background: #363636;
+	color:white;
+}

@@ -1,0 +1,100 @@
+
+
+@import "variables";
+/**
+*CONTENTS
+*
+*SETTINGS
+*variables...................
+*TOOLS
+*
+*COMPONENTS
+*reset.......................compass
+*
+*BASE 
+*screen.scss................
+*/
+@mixin floatWidth($position,$width){
+	position:$position;
+	width:$width;
+	padding:$padding;
+	box-sizing:border-box;
+	background:#fff;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+
+.constainer{
+	position:$relative;
+	background:#eee;
+	padding:$padding;
+}
+.left{
+	@include floatWidth($absolute,200px);
+	top:20px;
+	left: 20px;
+	border:$border;
+
+	.logo{
+		float: $left;
+		 img{
+			width:80px;
+			height: 80px;
+		}
+	}
+	h2{
+		font:{
+			size:14px;
+			weight:normal;
+		}
+	}
+	
+	 
+
+}
+.right{
+	@include floatWidth($absolute,120px);
+	top:20px;
+	right: 20px;
+	border:$border;
+
+		li{
+			list-style: none;
+			margin-bottom: 20px;
+			// border:$border;		
+			
+		}
+		img{
+			width:80px;
+			height: 80px;
+		}
+	
+}
+.main{
+		// width:100%;
+	position:$relative;
+	margin:0 140px 0 220px;
+	border:$border;
+	padding:$padding;
+	background:#fff;
+	img{
+		width:100%;
+		max-width: 500px;
+		padding-top:20px;
+	}
+	p{
+		line-height: 20px;
+		text-indent: 2em;
+	}
+	h3{
+		font:{
+			size:16px;
+			weight:bold;
+		}
+		line-height: 24px;
+		
+	}
+}

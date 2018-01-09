@@ -1,0 +1,72 @@
+/*
+*利用定位，但是存在一个问题：就是父类的高度取决于中间一栏
+*/
+
+.constainer{
+	position: relative;
+	padding:20px;
+	background: #eee;
+	border:1px solid #999;
+}
+.left{
+	width:200px;
+	padding:20px;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	box-sizing: border-box;
+	background: #fff;
+	border:1px solid #999;
+}
+.left .logo{
+	float: left;
+}
+.left .logo img{
+	width:80px;
+	height: 80px;
+
+}
+.left h2{
+	font-size: 14px;
+	font-weight: normal;
+}
+.main{
+	padding:20px;
+	margin:0 160px 0 240px;
+	box-sizing: border-box;
+	background: #fff;
+	border:1px solid #999;
+}
+.mainContent p{
+	text-indent: 2em;
+	line-height: 20px;
+}
+.mainContent h3{
+	font-weight: bold;
+	font-size:20px;
+	line-height: 25px;
+	padding:10px 0;
+}
+/*使图片自适应宽度*/
+.mainContent img{
+	width:100%;
+	max-width:500px;
+	padding:10px;
+}
+.right{
+	position: absolute;
+	padding:20px;
+	width:120px;
+	box-sizing: border-box;
+	right: 20px;
+	top:20px;
+	background: #fff;
+	border:1px solid #999;
+}
+.right li{
+	margin-bottom: 20px;
+}
+.right img{
+	width:80px;
+	height: 80px;
+}

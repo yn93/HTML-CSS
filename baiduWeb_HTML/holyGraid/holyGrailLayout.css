@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.wrapper {
+  display: table;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #999;
+  background: #eee;
+  box-sizing: border-box; }
+
+.box {
+  display: table-cell;
+  cellspacing: 20px; }
+
+.leftSidder {
+  width: 200px;
+  border: 1px solid #999;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.rightSidder {
+  border: 1px solid #999;
+  width: 100px;
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box; }
+
+.mainSidder {
+  border: 1px solid #999;
+  padding: 20px;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=holyGrailLayout.css.map */
